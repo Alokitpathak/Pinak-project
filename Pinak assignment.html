@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Boxes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Animation for rotating the box */
+      .rotate-box {
+        transition: transform 1s ease;
+      }
+      .rotate-box:hover {
+        transform: rotate(360deg);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <div
+      id="assignment"
+      class="w-full h-screen flex flex-col items-center justify-center"
+    >
+      <h1 class="text-4xl font-bold text-purple-800 mb-10">OUR SERVICES</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
+        <!-- Service Box 1 -->
+        <div
+          class="rotate-box bg-white shadow-lg p-6 rounded-lg text-center transition-transform duration-1000"
+        >
+          <div class="flex justify-center mb-4">
+            <svg
+              class="w-12 h-12 text-purple-600"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm0 21.6A9.6 9.6 0 1121.6 12 9.6 9.6 0 0112 21.6z"
+              />
+              <path
+                d="M12 6.9A5.1 5.1 0 1017.1 12 5.1 5.1 0 0012 6.9zm0 8.1A3 3 0 1115 12a3 3 0 01-3 3z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Emergency Plumbing Services</h2>
+          <p class="text-gray-600 mb-4">
+            Our plumbers are ready to go 24/7 for emergencies - including
+            nights, weekends, and holidays.
+          </p>
+          <a href="#" class="text-purple-600 font-semibold"
+            >Explore This Service &gt;</a
+          >
+        </div>
+
+        <!-- Service Box 2 -->
+        <div
+          class="rotate-box bg-white shadow-lg p-6 rounded-lg text-center transition-transform duration-1000"
+        >
+          <div class="flex justify-center mb-4">
+            <svg
+              class="w-12 h-12 text-purple-600"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm0 21.6A9.6 9.6 0 1121.6 12 9.6 9.6 0 0112 21.6z"
+              />
+              <path
+                d="M12 6.9A5.1 5.1 0 1017.1 12 5.1 5.1 0 0012 6.9zm0 8.1A3 3 0 1115 12a3 3 0 01-3 3z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Plumbing and Drains</h2>
+          <p class="text-gray-600 mb-4">
+            As the largest plumbing and drain service company, we make thousands
+            of repairs every day.
+          </p>
+          <a href="#" class="text-purple-600 font-semibold"
+            >Explore This Service &gt;</a
+          >
+        </div>
+
+        <!-- Service Box 3 -->
+        <div
+          class="rotate-box bg-white shadow-lg p-6 rounded-lg text-center transition-transform duration-1000"
+        >
+          <div class="flex justify-center mb-4">
+            <svg
+              class="w-12 h-12 text-purple-600"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm0 21.6A9.6 9.6 0 1121.6 12 9.6 9.6 0 0112 21.6z"
+              />
+              <path
+                d="M12 6.9A5.1 5.1 0 1017.1 12 5.1 5.1 0 0012 6.9zm0 8.1A3 3 0 1115 12a3 3 0 01-3 3z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Water Damage</h2>
+          <p class="text-gray-600 mb-4">
+            Our teams are equipped with state-of-the-art water extraction and
+            cleanup equipment.
+          </p>
+          <a href="#" class="text-purple-600 font-semibold"
+            >Explore This Service &gt;</a
+          >
+        </div>
+
+        <!-- Service Box 4 -->
+        <div
+          class="rotate-box bg-white shadow-lg p-6 rounded-lg text-center transition-transform duration-1000"
+        >
+          <div class="flex justify-center mb-4">
+            <svg
+              class="w-12 h-12 text-purple-600"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm0 21.6A9.6 9.6 0 1121.6 12 9.6 9.6 0 0112 21.6z"
+              />
+              <path
+                d="M12 6.9A5.1 5.1 0 1017.1 12 5.1 5.1 0 0012 6.9zm0 8.1A3 3 0 1115 12a3 3 0 01-3 3z"
+              />
+            </svg>
+          </div>
+          <h2 class="text-xl font-bold mb-2">Water Heaters</h2>
+          <p class="text-gray-600 mb-4">
+            Trust our experts for repair and replacement of gas, electric, and
+            tankless water heaters.
+          </p>
+          <a href="#" class="text-purple-600 font-semibold"
+            >Explore This Service &gt;</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
